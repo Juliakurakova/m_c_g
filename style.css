@@ -1,7 +1,22 @@
+@font-face{
+	src: url("./fonts/AvenirNext/AvenirNextCyr-Regular.ttf"); 
+	font-family: AvenirNext;  
+	font-weight: 400;
+}
+
+@font-face{
+	src: url("./fonts/AvenirNext/AvenirNextCyr-LightItalic.ttf"); 
+	font-family: AvenirNext;  
+	font-weight: 100;
+}
+
+
 .menu-link{
 color: white;
 font-size: 13PX;
 text-transform: uppercase;
+font-family: AvenirNext,sant-serif;
+font-weight: 400;
 }
 
 
@@ -31,6 +46,8 @@ color: white;
 text-transform: uppercase;
 font-size: 40px;
 margin: 250px 0  0 40px;
+font-family: AvenirNext,sant-serif;
+font-weight: 100;
 }
 
 .subtitle{
@@ -46,5 +63,51 @@ margin: 100px 0 0 40px;
 
 .benefits{
 background: #a2ca28;
+justify-content: space-between;
+display: flex;
+}
+
+
+.benefits-image{
+	height: 70px;
+}
+
+.benefits_item{
+	padding: 0 20px 0 0;
+}
+
+.image-hover{
+width:794px;
+height: 394px;
 
 }
+.image-hover:before{
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0 0.5);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
